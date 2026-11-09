@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "ConditionToken",
+    "name": "CONDITIONALS",
+    "symbol": "CONDITION",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "6000000000000000000000",
+    "remainderTo": "0xd6302976e590b9b947da8774b7f1246164e0ce98"
+  },
+  "notes": "ConditionToken (src/ConditionToken.sol) is a plain fixed-supply OpenZeppelin ERC-20 named CONDITIONALS with symbol CONDITION and 18 decimals. Its constructor takes no arguments and mints 1,000,000,000 tokens (1e27 base units) once to msg.sender, the launch factory. It has no owner, no admin functions, no further minting, and no fee or burn on transfer, so the factory, distributor and pool flows move exactly what they state. The launch deploys no application contracts."
+}
